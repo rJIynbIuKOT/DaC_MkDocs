@@ -2,6 +2,7 @@ site_name: rJIynbIuKOT MkDocs site # Название сайта
 site_description: Сайт rJIynbIuKOT'a на MkDocs # Описание сайта, добавляется в meta-теги
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
+  favicon: images/logo.png
   logo: images/logo.png # Ссылка на логотип сайта, логотип добавляется в папку `docs/images`
   font:
     text: Roboto # Шрифт текста
