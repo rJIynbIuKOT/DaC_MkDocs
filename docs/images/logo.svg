@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 64 64"
+     width="64" height="64">
+
+  <!-- Голова -->
+  <circle cx="32" cy="36" r="22" fill="#ffffff"/>
+
+  <!-- Уши -->
+  <path d="M14 24 L10 8 L26 18 Z" fill="#6b5a4a"/>
+  <path d="M50 24 L54 8 L38 18 Z" fill="#6b5a4a"/>
+
+  <!-- Верх головы (пятно) -->
+  <path d="M20 20
+           C26 14, 38 14, 44 20
+           L44 28
+           C38 24, 26 24, 20 28 Z"
+        fill="#6b5a4a"/>
+
+  <!-- Глаза -->
+  <circle cx="24" cy="36" r="4.5" fill="#111"/>
+  <circle cx="40" cy="36" r="4.5" fill="#111"/>
+
+  <!-- Блики -->
+  <circle cx="25.5" cy="34.5" r="1.5" fill="#fff"/>
+  <circle cx="41.5" cy="34.5" r="1.5" fill="#fff"/>
+
+  <!-- Нос -->
+  <path d="M32 40 L29 44 H35 Z" fill="#f3a1a1"/>
+
+  <!-- Рот (ниже) -->
+  <path d="M32 47
+           C30.5 49, 29 49, 28 48"
+        fill="none"
+        stroke="#333"
+        stroke-width="1.3"
+        stroke-linecap="round"/>
+
+  <path d="M32 47
+           C33.5 49, 35 49, 36 48"
+        fill="none"
+        stroke="#333"
+        stroke-width="1.3"
+        stroke-linecap="round"/>
+
+  <!-- Усы (короче и тоньше) -->
+  <line x1="19" y1="42" x2="26" y2="43"
+        stroke="#555" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="18" y1="45" x2="26" y2="44"
+        stroke="#555" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="20" y1="48" x2="26" y2="45"
+        stroke="#555" stroke-width="0.9" stroke-linecap="round"/>
+
+  <line x1="45" y1="42" x2="38" y2="43"
+        stroke="#555" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="46" y1="45" x2="38" y2="44"
+        stroke="#555" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="44" y1="48" x2="38" y2="45"
+        stroke="#555" stroke-width="0.9" stroke-linecap="round"/>
+
+
+
+</svg>
