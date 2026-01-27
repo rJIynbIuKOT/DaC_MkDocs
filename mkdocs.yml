@@ -53,6 +53,9 @@ markdown_extensions: # Расширения markdown
   - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
       anchor_linenums: true
   - pymdownx.superfences # Поддержка вложенных блоков кода
+  - pymdownx.emoji: # Иконки и эмодзи
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav: # Структура сайта
 - Главная страница: index.md
