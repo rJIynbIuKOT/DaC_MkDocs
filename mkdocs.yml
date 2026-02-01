@@ -53,6 +53,8 @@ plugins:
       - Аквафор
       - Личное
       - Telegram
+      - Сценарии
+      - notesapp
   - glightbox
 
 markdown_extensions: # Расширения markdown
@@ -84,4 +86,5 @@ nav: # Структура сайта
   - Пользовательский сценарий «Создание новой заметки»: notesapp/scenario-1.md
   - Пользовательский сценарий «Просмотр заметки»: notesapp/scenario-2.md
   - Пользовательский сценарий «Редактирование заметки»: notesapp/scenario-3.md
+  - Пользовательский сценарий «Удаление заметки»: notesapp/scenario-4.md
 - Теговая страница: tags.md
