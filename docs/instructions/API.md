@@ -1,6 +1,6 @@
 ---
 tags:
-  - concepts
+  - Концепции
   - API
 ---
 
