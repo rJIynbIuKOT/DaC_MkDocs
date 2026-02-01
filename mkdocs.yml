@@ -46,9 +46,13 @@ plugins:
   - search
   - tags:
       tags_allowed:
-      - tag1
-      - tag2
-      - tag3
+      - Концепции
+      - Инструкции
+      - Рекомендации
+      - API
+      - Аквафор
+      - Личное
+      - Telegram
   - glightbox
 
 markdown_extensions: # Расширения markdown
