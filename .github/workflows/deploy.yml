@@ -23,7 +23,7 @@ jobs:
         python-version: "3.x"
 
     - name: Install dependencies
-      run: pip install mkdocs mkdocs-material mkdocs-glightbox
+      run: pip install mkdocs mkdocs-material mkdocs-glightbox mkdocs-swagger-ui-tag mkdocs-redoc-tag mkdocs_puml
 
     - name: Build MkDocs site
       run: mkdocs build

@@ -56,6 +56,10 @@ plugins:
       - Сценарии
       - notesapp
   - glightbox
+  - swagger-ui-tag
+  - redoc-tag
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
 
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -88,3 +92,7 @@ nav: # Структура сайта
   - Пользовательский сценарий «Редактирование заметки»: notesapp/scenario-3.md
   - Пользовательский сценарий «Удаление заметки»: notesapp/scenario-4.md
 - Теговая страница: tags.md
+- API-дока:
+  - api/index.md
+  - Swagger: api/swagger.md
+  - Redoc: api/redoc.md
