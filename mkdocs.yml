@@ -5,29 +5,32 @@ theme: # Тема сайта, информация о ее параметрах
   favicon: images/logo.png
   logo: images/logo.png # Ссылка на логотип сайта, логотип добавляется в папку `docs/images`
   font:
-    text: Roboto # Шрифт текста
-    code: Roboto Mono # Шрифт для текста кода
+    text: Inter # Шрифт текста
+    code: JetBrains Mono # Шрифт для текста кода
   language: ru # Язык
   palette: # Настройки светлой и тёмной тем
     # Настройки светлой темы
     - scheme: default 
       toggle:
         icon: material/weather-sunny # Иконка для активации светлой темы
-        name: Выключить солнышко # Всплывающий текст-подсказка
-      primary: blue # Основной цвет
-      accent: purple # Акцентный цвет
+        name: Тёмная тема # Всплывающий текст-подсказка
+    #   primary: blue # Основной цвет
+    #   accent: purple # Акцентный цвет
       # вы можете использовать любой цвет из списка: 
       # red; pink; purple; deep purple; indigo; blue; light blue; cyan; teal; 
       # green; light green; lime; yellow; amber; orange; deep orange; brown; 
       # grey; blue grey; black; white
-
+    # - scheme: my-scheme
+    #   toggle:
+    #     icon: material/weather-sunny # Иконка для активации светлой темы
+    #     name: Тёмная тема # Всплывающий текст-подсказка
     # Настройки тёмной темы
     - scheme: slate
       toggle:
         icon: material/weather-night
-        name: Позвать солнышко
-      primary: deep purple
-      accent: blue
+        name: Светлая тема
+      # primary: deep purple
+      # accent: blue
   features: # настройки функциональностей темы
     - navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
     - navigation.path # Хлебные крошки
@@ -41,6 +44,9 @@ theme: # Тема сайта, информация о ее параметрах
     - search.suggest # Подсказки при вводе поискового запроса
     - search.highlight # Подсветка результатов поиска в тексте страницы
     - content.code.copy # Кнопка копирования в блоке кода
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
@@ -76,6 +82,9 @@ markdown_extensions: # Расширения markdown
   - pymdownx.emoji: # Иконки и эмодзи
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets:
+      base_path:
+      - docs/snippets
 
 nav: # Структура сайта
 - Главная страница: index.md

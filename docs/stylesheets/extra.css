@@ -1,0 +1,40 @@
+/* Настройки светлой темы */
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #117399; /*Основной цвет*/
+  --md-accent-fg-color: #001dc2; /*Акцентный цвет*/
+  --md-typeset-a-color: #526cfe; /*Цвет ссылок*/
+  --md-default-bg-color: #ebfaff; /*Фоновый цвет*/
+  --md-default-fg-color: #1b1b1b; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
+  --md-code-bg-color: #d6d6d6; /*Цвет фона блока кода*/
+  --md-code-fg-color: #36464e; /*Цвет текста в блоке кода*/
+  --md-default-fg-color--light: #1b1b1bd1; /*Цвет h1 и заголовков блоков toc и nav*/
+  --md-footer-bg-color: #3a829e; /*Цвет футера*/
+}
+
+/* Настройки тёмной схемы */
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #083141; /*Основной цвет*/
+  --md-accent-fg-color: #7c4dff; /*Акцентный цвет*/
+  --md-typeset-a-color: #7c4dff; /*Цвет ссылок*/
+  --md-default-bg-color: #1b1b1b; /*Фоновый цвет*/
+  --md-default-fg-color: #b1bcc0; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
+  --md-code-bg-color: #42475c; /*Цвет фона блока кода*/
+  --md-code-fg-color: #e6e6e6; /*Цвет текста в блоке кода*/
+  --md-default-fg-color--light: #b1bcc0d6; /*Цвет h1 и заголовков блоков toc и nav*/
+  --md-footer-bg-color: #083141; /*Цвет футера*/
+}
+
+.md-footer,
+.md-footer-meta {
+  background-color: var(--md-footer-bg-color);
+}
+
+[data-md-color-scheme="default"] .md-typeset code {
+    background-color: #f5f5f5;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+    background-color: #2d303e;
+}
